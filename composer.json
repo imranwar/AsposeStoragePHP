@@ -1,6 +1,6 @@
 {
     "description": 	"Aspose.Storage Cloud SDK for PHP lets users use Aspose Cloud Storage APIs in their PHP apps.",
-    "name": 		"AsposeStoragePHP",
+    "name": 		"Imranwar/AsposeStoragePHP",
     "type": 		"library",
     "keywords" : 	["aspose", "php", "aspose cloud", "storage"],
 	"homepage": 	"https://github.com/imranwar/AsposeStoragePHP",
@@ -12,20 +12,8 @@
     ],
 	"repositories": [
         {
-            "type": "package",
-            "package": {
-				"name": "aspose/AsposeStoragePHP",
-				"version": "v1.0.0",
-				"source": {
-					"type": "git",
-					"url": "https://github.com/imranwar/AsposeStoragePHP.git",
-					"reference": "tags/AsposeStoragePHP_v1.0.0"
-				},
-				"dist": {
-					"type": "zip",
-					"url": "https://github.com/imranwar/AsposeStoragePHP/archive/AsposeStoragePHP_v1.0.0.zip"
-				}            
-			}
+            "type": "git",
+			"url": "https://github.com/imranwar/AsposeStoragePHP.git"
 		}
 	],
     "require": {
@@ -33,8 +21,8 @@
         "ext-curl": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Aspose": "SDKs/"
+        "psr-4": {
+            "Aspose": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src"
         }
     }
 }
