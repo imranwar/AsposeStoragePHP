@@ -3,23 +3,26 @@
     "name": 		"aspose/storage-sdk-php",
     "type": 		"library",
     "keywords" : 	["aspose", "php", "aspose cloud", "storage"],
-	"homepage": 	"https://github.com/asposemarketplace/Aspose.Storage_Cloud_SDK_For_PHP",
+	"homepage": 	"https://github.com/imranwar/AsposeStoragePHP",
 	"authors": [
         {
             "name": 	"Imran Anwar",
             "email": 	"imranwar@gmail.com"
         }
     ],
+	"repositories": [
+    {
+        "type":"vcs",
+        "url":"https://github.com/imranwar/AsposeStoragePHP"
+    }
+	],
     "require": {
         "php": ">=5.3.2",
         "ext-curl": "*"
     },
     "autoload": {
         "psr-0": {
-            "Aspose": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src/"
+            "AsposeStoragePHP": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src/"
         }
-		"autoload": {
-			"exclude-from-classmap": ["/SDKs/Aspose.Storage_Cloud_SDK_For_CSharp/", "/SDKs/Aspose.Storage_Cloud_SDK_For_NodeJS/", "/SDKs/Aspose.Storage_Cloud_SDK_For_Java/", "/SDKs/Aspose.Storage_Cloud_SDK_For_Objective_C/", "/SDKs/Aspose.Storage_Cloud_SDK_For_Python/"]
-		}
     }
 }
