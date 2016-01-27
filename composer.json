@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aspose": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src"
+            "Aspose\\": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src"
         }
     }
 }
