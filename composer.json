@@ -11,23 +11,6 @@
             "email": 	"imranwar@gmail.com"
         }
     ],
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "imranwar/asposestoragephp",
-				"version": "master",
-				"dist": {
-					"type": "zip",
-					"url": "https://github.com/imranwar/AsposeStoragePHP/releases/download/v1.0.0/Aspose.Storage_Cloud_SDK_For_PHP-v1.0.0.zip",
-					"reference": "master"
-				},
-				"autoload": {
-					"classmap": ["."]
-				}
-			}
-		}
-	],
     "require": {
         "php": 		">=5.3.2",
         "ext-curl": "*"
@@ -35,6 +18,11 @@
     "autoload": {
         "psr-0": {
             "Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_PHP/src/"
-        }
+        },
+		"exclude-from-classmap": [
+			"/SDKs/Aspose.Storage_Cloud_SDK_For_CSharp/",
+			"/SDKs/Aspose.Storage_Cloud_SDK_For_Java/",
+			"/SDKs/Aspose.Storage_Cloud_SDK_For_NodeJS/"
+		]
     }
 }
