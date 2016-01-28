@@ -4,20 +4,15 @@
     "type": 		"library",
     "keywords" : 	["aspose", "php", "aspose cloud", "storage"],
 	"homepage": 	"https://github.com/imranwar/AsposeStoragePHP",
+	"license": 		"MIT",
 	"authors": [
         {
             "name": 	"Imran Anwar",
             "email": 	"imranwar@gmail.com"
         }
     ],
-	"repositories": [
-        {
-            "type": "git",
-			"url": "https://github.com/imranwar/AsposeStoragePHP.git"
-		}
-	],
     "require": {
-        "php": ">=5.3.2",
+        "php": 		">=5.3.2",
         "ext-curl": "*"
     },
     "autoload": {
