@@ -22,7 +22,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-			"Imranwar//Test": "test/",
+			"Imranwar//Test": "testing/",
 			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_CSharp",
 			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_Java",
 			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_NodeJS",
