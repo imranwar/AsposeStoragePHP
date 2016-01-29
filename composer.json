@@ -22,10 +22,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_CSharp/",
-			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_Java/",
-			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_NodeJS/",
-			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_Python/"
+			"Imranwar//Test": "test/",
+			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_CSharp",
+			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_Java",
+			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_NodeJS",
+			"Imranwar": "SDKs/Aspose.Storage_Cloud_SDK_For_Python"
 		}
     }
 }
